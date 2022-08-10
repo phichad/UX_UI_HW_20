@@ -1,4 +1,16 @@
-#sidebar {
+#sideBar {
     position: fixed;
     z-index: 1;
 }
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 660px) {
+    #sideBar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    #sideBar a {
+        text-align: center;
+    }
+    div.content {margin-left: 0;}
+  }

@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body>
- <!--Portfolio Top Nav - Bootstrap Nav Component -->
+ <!--Portfolio Top Navbar - Bootstrap Nav Component -->
         <section class="container-fluid">
             <div class="row">    
             <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
@@ -38,28 +38,30 @@
             </nav>
             </div>
         </section>    
-<!--Project Side Nav - Bootstrap Nav Component -->
+<!--Project Side Navbar - Bootstrap Nav Component -->
         <section class="container-fluid">
-            <div class="row py-5">
-              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                    <nav class="nav flex-column nav-tabs" id="sidebar">
+            <div class="row my-5">
+              <div class="col-xl-4 col-lg-3 col-md-3 col-sm-3 col-xs-3 pt-3" id="sideBar">
+                    <div class="card p-3" id="projectTitle">
                         <h1>Project Title</h1>
                         <h2>Subtitle</h2>
-                        <a class="nav-link" href="#">Overview</a>
-                        <a class="nav-link" href="#">User Research</a>
-                        <a class="nav-link" href="#">Problem Statement</a>
-                        <a class="nav-link" href="#">Design Process</a>
-                        <a class="nav-link" href="#">Usability Testing</a>
-                        <a class="nav-link" href="#">The Results</a>
+                    </div>
+                    <nav class="nav flex-column nav-tabs" id="sideNav">
+                        <a class="nav-link" href="#overview">Overview</a>
+                        <a class="nav-link" href="#userResearch">User Research</a>
+                        <a class="nav-link" href="#problemStatement">Problem Statement</a>
+                        <a class="nav-link" href="#designProcess">Design Process</a>
+                        <a class="nav-link" href="#usabilityTesting">Usability Testing</a>
+                        <a class="nav-link" href="#finalPrototype">Final Prototype</a>
                     </nav>
                 </div>
             </div>
         </section>
 <!--Project Overview - Bootstrap Jumbotron Component -->
-        <section class="container-fluid">
+        <section class="container-fluid mt-5 pt-5" id="overview">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9" id="main">
+                <div class="col-xl-4 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                    <div class="col-xl-8 col-lg-9 col-md-9 col-sm-9 col-xs-9" id="main">
                         <div class="jumbotron jumbotron-fluid">
                             <div class="container">
                                 <h2 class="display-4">Overview</h2>
@@ -89,10 +91,10 @@
             </div>
         </section>
 <!--User Research - Bootstrap Collapse Component -->
-        <section class="container-fluid">
+        <section class="container-fluid pt-5" id="userResearch">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                <div class="col-xl-4 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                <div class="col-xl-8 col-lg-9 col-md-9 col-sm-9 col-xs-9">
                     <h2 class="display-4">User Research</h2>
                 <div class="accordion" id="accordionExample">
                     <div class="card">
@@ -142,12 +144,12 @@
             </div>
         </section>
 <!--Problem Statement - Bootstrap Jumbotron Component -->
-        <section class="container-fluid">
+        <section class="container-fluid pt-5" id="problemStatement">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                <div class="col-xl-4 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                <div class="col-xl-8 col-lg-9 col-md-9 col-sm-9 col-xs-9">
                     <div class="jumbotron jumbotron-fluid">
-                        <div class="container">
+                        <div class="card p-3">
                             <h2 class="display-4">Problem Statement</h2>
                             <p class="lead">(Persona) needs a way to (user need) because (insight).</p>
                         </div>
@@ -156,10 +158,10 @@
             </div>
         </section>
 <!--Design Process - Bootstrap Collapse Component -->
-        <section class="container-fluid">
+        <section class="container-fluid pt-5" id="designProcess">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                <div class="col-xl-4 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                <div class="col-xl-8 col-lg-9 col-md-9 col-sm-9 col-xs-9">
                     <h2 class="display-4">Design Process</h2>
                     <div class="accordion" id="accordionExample">
                         <div class="card">
@@ -209,10 +211,10 @@
             </div>
         </section>
 <!--Usability Testing & Iterations - Bootstrap Card Component -->
-        <section class="container-fluid">
+        <section class="container-fluid pt-5" id="usabilityTesting">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                <div class="col-xl-4 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                <div class="col-xl-8 col-lg-9 col-md-9 col-sm-9 col-xs-9">
                     <h2 class="display-4">Usability Testing</h2>
                     <div class="row row-cols-1 row-cols-md-2">
                         <div class="col mb-4">
@@ -256,10 +258,10 @@
             </div>
         </section>       
 <!--The Final Prototype - Bootstrap Col System -->
-        <section class="container-fluid">
+        <section class="container-fluid py-5" id="finalPrototype">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                <div class="col-xl-4 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+                <div class="col-xl-8 col-lg-9 col-md-9 col-sm-9 col-xs-9">
                     <h2 class="display-4">The Final Prototype</h2>
                     <div class="row">
                         <div class="col-sm-3">
